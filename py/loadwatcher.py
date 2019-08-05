@@ -246,7 +246,7 @@ def parse_arguments():
     Gather command-line arguments.
     """
     parser = argparse.ArgumentParser(prog='loadwatcher',
-        description='hecks cpu util per user on a linux machine and ' + \
+        description='checks cpu util per user on a linux machine and ' + \
         'send warning messages to users who pass a certain threshold')
     parser.add_argument( '--debug', '-d', dest='debug', action='store_true',
         help='verbose output for all commands',
